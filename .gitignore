@@ -1,0 +1,62 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs and temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Large MRI / medical image files
+*.nii
+*.nii.gz
+*.dcm
+
+# Local dataset image folders
+OASIS_CNN_Dataset_1_12/images/
+OASIS_CNN_Dataset_5_6/images/
+OASIS_CNN_Dataset_7_9/images/
+OASIS_CNN_Dataset_10_12/images/
+
+# Temporary generated outputs
+temp/
+tmp/
+dashboard/.git_backup/
+
+# Large trained model files
+*.keras
+*.h5
+*.joblib
+venv/
+.venv/
+__pycache__/
+# Nested Git backup
+dashboard/.git_backup/
+
+# Ignore large trained models
+*.keras
+*.h5
+*.joblib
+venv/
+.venv/
+__pycache__/
+dashboard/.git_backup/
